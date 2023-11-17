@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo{
+    height: 30px;
+    padding-right: 20px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon{
+    height: 20px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    border-style:solid;
+    border-color: rgb(246,246,246);
+    border-radius: 10px;
+    background: white;
+    padding: 5px 4px
+}
+
+.search-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .search-item p {
+    color: gray;
+    border-right: 1px solide gray;
+    font-size: 15px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.search .search-item input {
+    outline: none;
+    border: none;
+    width: 200%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search .search-item:first-child{
+    width: 30%;
+    
+}
+.search .search-item:last-child{
+    width: 70%;
+}
+
+.nav-right{
+    display: flex;
+    gap:20px;
+    color: gray;
+}
+
+.choose{
+    display: flex;
+    margin-left: 200px ;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.choose img{
+    height: 40px;
+}
+.option1{
+    display: flex;
+    gap: 10px;
+    border-bottom: solid rgb(246,157,166);
+    padding-bottom: 5px;
+   
+}
+
+.option1 h3{
+    color: rgb(246,157,166);
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    background-color: rgb(252,238,192); 
+}
+
+.option2{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40px;
+    color: rgb(140,140,140);
+}
+
+.option3{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40px;
+    color: rgb(140,140,140);
+}
+
+.section{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    color:  rgb(140,140,140);
+    background-color: #fff;
+    padding: 20px 0;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    margin-left: 200px ;
+    gap: 10px;
+    border: 0.5px solid rgb(140,140,140) ;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+}
+
+.filter img{
+    height:15px;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 0.5px solid rgb(140,140,140) ;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+}
+
+.choice{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 0.5px solid rgb(140,140,140) ;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+}
+
+.choice img{
+    height: 15px;
+    
+}
+#head1{
+    margin-left: 200px;
+    font-weight: 400;
+}
+
+.food{
+    display: flex;
+    background: #f8f8f8;
+    margin-left: 200px ;
+    
+}
+.food img{
+    width: 150px;
+}
+
+.firstlist{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.firstlist img{
+    margin-right: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+}
+
+.item img {
+    display: block;
+    margin: 0 auto; 
+}
+
+.secondlist{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    gap: 40px;
+}
+
+.secondlist .item img{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px outset grey;
+}
+.outerbox{
+    display: flex;
+    margin-left: 200px;
+    gap: 30px;
+    margin-top: 30px;
+}
+.innerbox:hover{
+    background-color:  rgb(249, 242, 242);
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+.innerbox img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.innerbox div{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.rate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(38, 126, 62);
+    color: rgb(255, 255, 255);
+    height: 20px;
+    padding: 0px 4px;
+    margin-top: 16px;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.dr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
